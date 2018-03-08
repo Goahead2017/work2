@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/message"
+        android:title="个人信息"/>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/skin"
+            android:title="换肤">
+
+            <menu>
+
+                <item
+                    android:id="@+id/bk_one"
+                    android:title="背景1"/>
+
+                <item
+                    android:id="@+id/bk_two"
+                    android:title="背景2"/>
+
+                <item
+                    android:id="@+id/bk_three"
+                    android:title="背景3"/>
+
+                <item
+                    android:id="@+id/bk_four"
+                    android:title="背景4"/>
+
+                <item
+                    android:id="@+id/bk_five"
+                    android:title="背景5"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hobby"
+            android:title="购物爱好">
+            <menu>
+                <item
+                    android:id="@+id/film"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="电影"/>
+                <item
+                    android:id="@+id/mall"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="商场"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/people"
+            android:title="个人中心">
+            <menu>
+                <item
+                    android:id="@+id/wallet"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="钱包"/>
+                <item
+                    android:id="@+id/collect"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="收藏"/>
+                <item
+                    android:id="@+id/setting"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="设置"/>
+            </menu>
+        </item>
+    </group>-->
+
+</menu>
+
